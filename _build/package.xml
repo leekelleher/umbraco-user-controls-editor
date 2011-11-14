@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<umbPackage>
+	<files />
+	<info>
+		<package>
+			<name>User Control Files Tree</name>
+			<version>1.1</version>
+			<license url="http://www.opensource.org/licenses/mit-license.php">MIT license</license>
+			<url>http://our.umbraco.org/projects/developer-tools/user-control-file-editor</url>
+			<requirements>
+				<major>4</major>
+				<minor>7</minor>
+				<patch>0</patch>
+			</requirements>
+		</package>
+		<author>
+			<name>Lee Kelleher</name>
+			<website>http://leekelleher.com</website>
+		</author>
+		<readme><![CDATA[]]></readme>
+	</info>
+	<DocumentTypes />
+	<Templates />
+	<Stylesheets />
+	<Macros />
+	<DictionaryItems />
+	<Languages />
+	<DataTypes />
+	<Actions>
+		<Action runat="install" alias="addApplicationTree" silent="false" initialize="true" sortOrder="4" applicationAlias="developer" treeAlias="usercontrolFiles" treeTitle="User Control Files" iconOpened="folder_o.gif" iconClosed="folder.gif" assemblyName="Our.Umbraco.Tree.UserControls" treeHandlerType="loadUserControlFiles" action="" />
+	</Actions>
+</umbPackage>
